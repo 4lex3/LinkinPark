@@ -1,0 +1,170 @@
+:root {
+    --woodsmoke-50: #f6f5fa;
+    --woodsmoke-100: #edebf3;
+    --woodsmoke-200: #d6d2e5;
+    --woodsmoke-300: #b1abce;
+    --woodsmoke-400: #867db3;
+    --woodsmoke-500: #675d9a;
+    --woodsmoke-600: #544980;
+    --woodsmoke-700: #453c68;
+    --woodsmoke-800: #3c3557;
+    --woodsmoke-900: #352f4b;
+    --woodsmoke-950: #08070b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+.body {
+    background-image: url('./resources/meteora.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.header,
+.main {
+    width: 100vw;
+}
+
+
+.header {
+    background-color: var(--woodsmoke-950);
+    border-bottom: 1px solid var(--woodsmoke-300);
+    padding: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerMenu {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 200px;
+    display: flex;
+    margin-right: 20%;
+}
+
+.menuItem {
+    display: inline;
+    margin-right: 30%;
+}
+
+.link {
+    font-size: 20px;
+    color: var(--woodsmoke-50);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--woodsmoke-300);
+    border-bottom: 1px solid var(--woodsmoke-300);
+}
+
+.main {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-left: 2.5vh;
+    padding-right: 2.5vh;
+}
+
+.sections {
+    backdrop-filter: blur(22px); 
+    padding-top: 1vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-bottom: 3vw;
+    margin-bottom: 15px;
+}
+
+.section-name {
+    color: var(--woodsmoke-50);
+    font-weight: 396;
+    text-decoration: underline;
+    font-size: 45px;
+    margin-bottom: 3%;
+}
+
+h3 {
+    color: var(--woodsmoke-100);
+    text-decoration: underline;
+    font-weight: 380;
+    font-size: 30px;
+}
+
+p {
+    color: var(--woodsmoke-100);
+    font-size: 20px;
+    font-weight: 380;
+    margin-bottom: 2%;
+}
+
+.article {
+    margin-left: 3%;
+    margin-bottom: 150px;
+}
+
+.svg-container {
+    width: 100%;
+    text-align: center;
+}
+
+.svg-element {
+    margin: 7px;
+    height: 70px;
+    margin-right: 1%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.video {
+    width: 100%;
+}
+
+
+.footer {
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid var(--woodsmoke-300);
+    background-color: var(--woodsmoke-950);
+    border-bottom: 1px solid var(--woodsmoke-300);
+    padding: 1.5%;
+    padding-left: 5%;
+}
+
+.footer-title {
+    color: var(--woodsmoke-50);
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logoContainer {
+    margin-left: 1000px;
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__logoLP {
+    background-color: transparent;
+    margin-left: 5%;
+    max-width: 4%;
+}
+
+.lp__logoFooter {
+    max-width: 25%;
+}
