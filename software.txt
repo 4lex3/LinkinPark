@@ -1,0 +1,32 @@
+Transiciones clips
+
+00:11 - 00:21 -> Bar Horizontal
+00:33 - 00:41 -> Barn Door Diagonal NW-SE
+00:52 - 01:05 -> Barn Door Horizontal
+01:12 - 01:21 -> Bi-Linear X
+01:32 - 01:42 -> Box Botton Right
+01:53 - 02:05 -> Bi-Linear Y
+02:16 - 02:25 -> Box Botton Left
+02:36 - 02:44 -> Burst
+02:56 - 03:06 -> Checkerboard Small
+03:17 - 03:29 -> Clock
+03:39 - 03:52 -> Cloud
+04:03 - 04:12 -> Curtain
+04:24 - 04:31 -> Diagonal Top Left
+04:40 - 04:50 -> Double Iris
+05:01 - 05:19 -> Horizontal Blinds
+05:31 - 05:46 -> Radial
+05:57 - 06:07 -> Spiral
+06:18 - 06:26 -> Square
+06:37 - 06:47 -> Symmetric Clock
+06:58 - 07:07 -> Matrix Snake Parallel Horizontal
+07:17 - 07:27 -> Burst
+
+Efecto canciones 
+
+- Reverse // No Reverse
+
+Efecto imagenes
+
+- Position and Zoom
+- (07:48 hasta el final) : Fade Out ->  Cubic Out
