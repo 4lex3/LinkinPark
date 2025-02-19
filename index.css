@@ -168,3 +168,13 @@ p {
 .lp__logoFooter {
     max-width: 25%;
 }
+
+.effectsContainer {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    color: #f6f5fa;
+}
+
+
+
